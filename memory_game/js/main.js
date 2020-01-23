@@ -1,55 +1,14 @@
-//Logic du programme
-
-
-console.log("Up and running!");
-
-
-let cardOne = "king";
-let cardtwo =  "queen";
-let cardThree = "King";
-let cardFour = "King";
-
-
-console.log("User flipped" + cardThree);
-console.log("User flipped" + cardFour);
-
-
-let card = ["queen", "queen", "King", "king"];
-
-let cardInPlay = [];
-
-/*
-
-
-
-let card = ["queen", "queen", "King", "king"];
-card.pop;
-
-let cardInPlay = [];
-
-
-let cardOne = card[0];
-
-let cardTwo = card[2];
-
-cardInPlay.push(cardOne);
-cardInPlay.push(cardTwo);
 
 
 
 
-if ( cardInPlay.length === 2) {
 
-    if(cardOne === cardInPlay[0]) {
+console.log("Up and running");
 
-     console.log("User flipped King");
+let cardOne = "queen";
+let cardTwo = "king";
+let cardThree = "queen";
+let cardFoud = "King";
 
-    }
-    if (cardTwo === cardInPlay[1]) {
-
-      console.log("User flipped King");
-    }
-
-    alert("You found a match!");
-}
-*/
+console.log("User flipped " + cardOne);
+console.log("User flipped " + cardTwo);
